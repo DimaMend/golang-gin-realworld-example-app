@@ -1,3 +1,13 @@
 {
-  "settingsInheritedFrom": "DimaMend/whitesource-config@main"
+  "settingsInheritedFrom": "DimaMend/whitesource-config@main",
+  "remediateSettings": {
+    "workflowRules": {
+      "enabled": false
+    },
+    "enableRenovate": true,
+    "extends": [
+      "config:recommended",
+      "mergeConfidence:all-badges"
+    ]
+  }
 }
